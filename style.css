@@ -99,7 +99,6 @@ h1 {
 }
 
 .demo:hover {
-    padding: 18px 30px;
     background-color: #47aa95;
     border-radius:2px;
 }
@@ -148,6 +147,12 @@ h1 {
     color: white;
     border:none;
     text-transform: uppercase;
+    transition: 1s;
+}
+
+.read-more-button:hover {
+    background-color: #47aa95;
+    border-radius:2px;
 }
 
 .services-button {
@@ -155,6 +160,12 @@ h1 {
     color:white;
     border: 2px solid white;
     text-transform: uppercase;
+    transition: 1s;
+}
+
+.services-button:hover {
+    border: 2px solid #47aa95;
+    border-radius:2px;
 }
 
 .home-banner {
