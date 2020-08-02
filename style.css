@@ -1,0 +1,170 @@
+@font-face{
+    src: url(assets/NanumGothic-Regular.ttf);
+    font-family: nanumGothic;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#particles-js {
+    height: 100vh;
+    background: #282b63;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: nanumGothic;
+}
+
+nav {
+    width: 90%;
+    top:0;
+    position: absolute;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.fa-shield {
+    margin-right: 0.35em;
+}
+
+.nav-links {
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav-links li a{
+   text-decoration: none;
+   color: #ccc;
+   transition: 1s;
+}
+
+.nav-links li a:hover{
+    color:white;
+}
+
+#active {
+    color: white;
+}
+
+.link-anim::after {
+    content: '';
+    display: block;
+    width:0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+    margin-top: 3px;
+}
+
+.link-anim:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.demo {
+    padding: 15px 25px;
+    border-radius: 18px;
+    background-color: #85d3c2;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+
+.demo:hover {
+    padding: 18px 30px;
+    background-color: #47aa95;
+    border-radius:2px;
+}
+
+.home {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-text {
+    width: 50%;
+    color: white;
+}
+
+.text-bold {
+    color: #ccc;
+}
+
+.home-text-main {
+    font-size: 3.5em;
+}
+
+.home-text-secondary {
+    margin-top: 5%;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #efefef;
+}
+
+.home-buttons {
+    margin-top: 8%;
+    width:58%;
+    display: flex;
+    justify-content: space-between;
+}
+.home-buttons button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.read-more-button {
+    background-color: #85d3c2;
+    color: white;
+    border:none;
+    text-transform: uppercase;
+}
+
+.services-button {
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
+
+.home-banner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 70%;
+    border-radius: 50%;
+}
