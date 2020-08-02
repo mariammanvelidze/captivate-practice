@@ -1,1 +1,2 @@
-# captivate-practicec
+# captivate-practice
+# https://mariammanvelidze.github.io/captivate-practice/
