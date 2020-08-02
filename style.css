@@ -24,13 +24,16 @@
     right: 0;
 }
 
+body {
+    font-family: Sora;
+}
+
 .container {
     height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Sora;
 }
 
 nav {
@@ -180,7 +183,53 @@ h1 {
     align-items: center;
 }
 
-img{
+.home-banner-style{
     width: 70%;
     border-radius: 50%;
+}
+
+.about-section {
+    padding: 80px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    width: 50%;
+    color: #333;
+}
+
+.about-text-title {
+    font-size: 2.2em;
+    margin-bottom: 0.8em;
+}
+
+.about-text-main {
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+}
+
+.about-text-secondary {
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.6em;
+    color: #666;
+}
+.about-banner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner-style {
+    width: 90%;
 }
