@@ -6,5 +6,7 @@ $(function () {
         arrows: true,
         autoplay: true,
         autoplaySpeed:1000,
+        prevArrow: '.arrow-prev',
+        nextArrow: '.arrow-next',
     });
 });
