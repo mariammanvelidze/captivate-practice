@@ -112,7 +112,7 @@ h1 {
 }
 
 .home {
-    width: 70%;
+    max-width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,7 +197,7 @@ h1 {
 }
 
 .about {
-    width: 70%;
+    max-width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -233,3 +233,91 @@ h1 {
 .about-banner-style {
     width: 90%;
 }
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f7f8f9;
+    padding: 3% 0;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-text-main {
+    color: #4c4c4c;
+    font-size: 1.8em;
+    margin-bottom: 1.8%;
+}
+
+.services-text-secondary {
+    width: 60%;
+    font-weight: lighter;
+    color: #666;
+    font-size: 1em;
+    margin-top: 3%;
+    text-align: center;
+}
+hr {
+    width: 5%;
+}
+
+.services-types {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.services-types div div {
+    padding: 20px 40px;
+    background-color: white;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+.services-types div div i {
+    font-size: 1.9em;
+    color: #85d3c2;
+    padding-bottom: 10%;
+    padding-top: 6%;
+    width: 100%;
+}
+
+.services-types div div a {
+    font-size: 1.2em;
+    color: #333;
+    padding-bottom: 7%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.services-types div div a:hover {
+    color: #85d3c2;
+}
+
+.services-types div div h3 {
+    font-size: 1em;
+    color: #666;
+    font-weight: lighter;
+    line-height: 1.8em;
+}
+/* 
+.col-1 div {
+    padding: 10%;
+    background-color: white;
+    margin: 10%;
+} */
